@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.infostyle{
+padding:5px;
+background-color:#4682B4;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+height:650px;
+background-color:#E0FFFF;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+<div class="infostyle">
+<h2 align="center">Admission Form</h2>
+</div>
+<div class="row">
+  <div class="column">
+  <form>
+  <br> <h3>
+    <label for="uname"><b>First Name : </b></label>
+    <input type="text" placeholder="Enter your First Name" name="uname" required>
+    <br><p> 
+    <label for="ulname"><b>Last Name : </b></label>
+    <input type="text" placeholder="Enter your Last Name" name="uname" required> 
+    <br> 
+    <br> <h3>
+    <label for="ucmarks"><b> Enter your CET marks : </b></label>
+    <input type="text" placeholder="Enter your marks" name="uname" required>
+    <br><p>
+    <label for="ujmarks"><b> Enter your JEE marks : </b></label>
+    <input type="text" placeholder="Enter your marks" name="uname" required>
+    <br> 
+    <br> 
+    <label>Date of birth : </label>
+    <input type ="datetime-local" name =" "> 
+    <br></p>
+    Select your Preferences :<br> 
+    <input type = "checkbox" name = "Computer engineer" value = "on"> Computer Engineer <br>
+    <input type = "checkbox" name = "Mechanical engineer" value = "on"> Mechanical Engineer <br>
+    <input type = "checkbox" name = "AI engineer" value = "on"> AI Engineer <br>
+    <input type = "checkbox" name = "Electronic engineer" value = "on"> Electronic Engineer <br>
+    <input type = "checkbox" name = "Civil engineer" value = "on"> Civil Engineer <br>
+    <input type = "checkbox" name = "IT engineer" value = "on"> IT Engineer <br></p>
+    <p>Upload CET marksheet :<br> 
+    <input type ="file" name ="upload_file" accept ="pdf/*"> </p>
+    <p>Upload JEE marksheet :<br> 
+    <input type ="file" name ="upload_file" accept ="pdf/*"> </p>
+    <br></p>
+    <input type = "submit" name =" submit " value ="Submit"/>
+    <input type="reset" name="reset" value="Reset"/> 
+    </form>
+  </div>
+  <div class="column">
+    <img src= "D:\smith\mproj(HTML)\welcomep.png" height="650" width="90%">  
+</div>
+</div>
+</body>
+</html>

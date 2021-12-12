@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial;
+  color: black;
+}
+.split {
+  height: 53%;
+  position:absolute;
+  z-index: 1;
+  top: 30;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.content{
+background:#E0F2F7;
+width="50%";
+padding:70px;
+margin:100px auto;
+}
+.left {
+  left: 0;
+padding-left:10px;
+  width: 59%;
+  background-color:rgb(228, 255, 192);
+}
+
+.right {
+  right: 0;
+height:53%;
+  width: 39%;
+overflow:hidden;
+  background-image:url(engineer.jpg);
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+.overlap{
+overflow:hidden;
+padding-top:440px;
+}
+
+</style>
+</head>
+<body>
+<div style="background-color:#ffe6ff;">
+<div style="color:red;">
+  <p style="text-align:center" ><img src="C:\Users\srsrn\Downloads\sfitlogo.png" ; width="60" height="60";  >
+    <br>
+    <h1 style="text-align:center">St. Francis Institute of Technology </h1>
+    </div>
+    <p style="text-align:center"> Mount Poinsur, Borivali (W), Mumbai - 400 103
+    <br>
+     <b>Phone No. </b> 022-28908585, 022-28908787   <b> Email:</b>  sfedu@sfit.ac.in    <b>Website:<a href="https://www.sfit.ac.in/">www.sfit.ac.in</a></b></p>
+    </p>
+</div>
+    <div class="split left">
+   <p> <b><h1>ABOUT SFIT</h1></b>  <br>
+        St. Francis Institute of Technology (SFIT) was established in 1999 with a view to create an Engineering Degree Institute to fulfill the long felt public need of an Institute of Excellence in Borivali.<p>
+
+SFIT has five UG Programs and two PG Programs in the most coveted disciplines considering both industrial need and public preference. These courses would lead to award of the Degree of Bachelor of Engineering (B.E.) in Computer Engineering, Electronics & Telecommunication Engineering, Information Technology, Electrical Engineering and Mechanical Engineering and Master of Engineering (M.E.) as well as Ph.D. (Technology) in Computer Engineering and Electronics & Telecommunication Engineering.
+<p>SFIT is approved by AICTE and is permanently affiliated to the University of Mumbai.
+<p>National Board of Accreditation (NBA) has granted accreditation to the three U.G. programs i.e. Computer Engineering, Electronics & Telecommunication Engineering and Information Technology offered by our Institute as per the validity period mentioned in their letter (Click here). The institute is also certified for meeting with the Quality Management System Standards ISO 9001:2015, for providing undergraduate courses in Engineering/Technology.
+    </p> 
+</div>
+
+<div class="split right">
+<div class="centered">
+<div class="content"> 
+    <h3 align="center"> Admission Registration Form </h3>
+<form action="D:\smith\mproj(HTML)\login.html" method="post">
+         <label for="fname" align="center"> <b> First Name </b> </label> <br/> 
+         <input type="text" name="fname"> <br/>
+         <label for="lname"> <b> Last Name </b> </label> <br/> 
+         <input type="text" name="lname"> <br/>
+         <label for="email"> <b> Email </b> </label> <br/>
+         <input type="text" name="email"> <br/>
+         <label for="passd"> <b> Enter Password </b> </label> <br/>
+         <input type="password" name="passd"> <br/>
+         <label for="rpassd"> <b> Retype Password </b> </label> <br/>
+         <input type="password" name="rpassd"> <br/>
+         <br>         
+         <button onclick="alert('Registration Complete!'), onclick="myOnClickFn()">Submit</button>         
+         <input type="reset" name="reset" value="Reset"/></p>
+</form>
+<a href="D:\smith\mproj(HTML)\login.html">Click here to Sign in</a>
+</div>
+</div>
+</div>
+<div class="overlap">
+<img class="slides" src="building.jpg" height="480" width=100%>
+</div>
+</body>
+</html>
